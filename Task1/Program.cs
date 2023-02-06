@@ -6,7 +6,7 @@ int j = 0;
 for (int i = 0; i < array.Length; i++)
 {
     array[i] = rnd.Next(100, 1000);
-    System.Console.Write(array[i] + "," + " ");
+    System.Console.Write(array[i] + ", ");
             if (array[i] %2 == 0)
             {
                j = j + 1;
